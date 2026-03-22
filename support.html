@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadence - Support</title>
+    <style>
+        :root {
+            --accent: #4A7C59;
+            --bg: #F8F7F4;
+            --text: #2C2C2C;
+            --text-secondary: #6B7D6F;
+            --card-bg: rgba(255,255,255,0.7);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 0 16px;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 48px 0 64px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .header .subtitle {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 32px 0 16px;
+        }
+        .faq-item {
+            background: var(--card-bg);
+            border: 1px solid rgba(0,0,0,0.06);
+            border-radius: 14px;
+            padding: 20px;
+            margin-bottom: 12px;
+            backdrop-filter: blur(10px);
+        }
+        .faq-item h3 {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--accent);
+        }
+        .faq-item p {
+            font-size: 14px;
+            color: var(--text);
+            margin-bottom: 0;
+        }
+        .faq-item ul {
+            font-size: 14px;
+            padding-left: 18px;
+            margin-top: 8px;
+        }
+        .faq-item li { margin-bottom: 4px; }
+        .contact-card {
+            background: var(--accent);
+            color: white;
+            border-radius: 14px;
+            padding: 24px;
+            text-align: center;
+            margin: 32px 0;
+        }
+        .contact-card h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .contact-card p {
+            font-size: 14px;
+            opacity: 0.9;
+            margin-bottom: 16px;
+        }
+        .contact-card a {
+            display: inline-block;
+            background: white;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            padding: 10px 24px;
+            border-radius: 10px;
+        }
+        .contact-card a:hover { opacity: 0.9; }
+        .links {
+            text-align: center;
+            margin-top: 32px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(0,0,0,0.08);
+        }
+        .links a {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .links a:hover { text-decoration: underline; }
+        .footer {
+            text-align: center;
+            margin-top: 24px;
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Support</h1>
+            <p class="subtitle">Cadence - Gut Health Tracker</p>
+        </div>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3>What is the Bristol Stool Scale?</h3>
+            <p>The Bristol Stool Scale is a medical classification system that categorizes stool into seven types based on form and consistency. Types 3 and 4 are generally considered ideal. Cadence uses this clinically validated scale as the foundation of your gut health tracking.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How does the Gut Health Score work?</h3>
+            <p>Your score (0-100) is calculated from four components:</p>
+            <ul>
+                <li><strong>Consistency (35%)</strong> - How close your Bristol types are to the ideal range (Types 3-4)</li>
+                <li><strong>Frequency (25%)</strong> - Whether your daily frequency falls in the optimal range (1-2x/day)</li>
+                <li><strong>Alarm Symptoms (25%)</strong> - Presence of blood, mucus, abnormal color, or urgency</li>
+                <li><strong>Regularity (15%)</strong> - How predictable your patterns are over time</li>
+            </ul>
+            <p>You need at least 3 entries per week for the score to calculate. The more consistently you log, the more accurate your score becomes.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I export my data?</h3>
+            <p>Go to Settings > Export Data. You can choose a date range and export in either Markdown (readable, formatted) or CSV (spreadsheet-compatible) format. Exported files can be shared with your healthcare provider or saved for your records.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I delete my data?</h3>
+            <p>Individual entries can be deleted by swiping left on them in your history. To remove all data, you can delete the app from your device. Your iCloud data can be managed through Settings > [Your Name] > iCloud > Manage Storage on your device.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Why isn't my Apple Watch syncing?</h3>
+            <p>Cadence syncs between your iPhone and Apple Watch through iCloud. Make sure:</p>
+            <ul>
+                <li>Both devices are signed into the same iCloud account</li>
+                <li>iCloud Drive is enabled on both devices</li>
+                <li>Both devices have a network connection (Wi-Fi or cellular)</li>
+                <li>The Cadence app is installed on both devices</li>
+            </ul>
+            <p>Sync may take a few moments. If entries don't appear right away, try opening the app on both devices and waiting briefly.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What HealthKit data does Cadence read?</h3>
+            <p>With your permission, Cadence reads nutrition data from Apple Health (calories, protein, carbs, fat, and fiber) to provide dietary context alongside your gut health patterns. Cadence never writes any data to Apple Health. You can manage these permissions in Settings > Apple Health > Manage Health Permissions.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Is my data private?</h3>
+            <p>Yes. All your health data is stored in your personal iCloud account. There are no user accounts, no analytics, no ads, and no third-party services. The developer never has access to your data. See our <a href="privacy-policy.html" style="color: var(--accent);">Privacy Policy</a> for full details.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Is Cadence a medical device?</h3>
+            <p>No. Cadence is a personal tracking tool designed to help you notice patterns in your gut health. It does not provide medical diagnoses, treatment advice, or symptom interpretation. Always consult a qualified healthcare provider for medical concerns.</p>
+        </div>
+
+        <div class="contact-card">
+            <h3>Still need help?</h3>
+            <p>We're happy to assist with any questions or issues.</p>
+            <!-- TODO: Replace with your actual support email -->
+            <a href="mailto:cadenceapp@fastmail.com">Contact Support</a>
+        </div>
+
+        <div class="links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+        </div>
+
+        <div class="footer">
+            <p>Cadence v1.4</p>
+            <p>Cadence is a personal tracking tool and does not provide medical advice.</p>
+        </div>
+    </div>
+</body>
+</html>
